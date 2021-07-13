@@ -1,0 +1,33 @@
+.sidebar {
+   width: 350px;
+   max-width: 400px;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+}
+.sidebar_header {
+   display: flex;
+   padding: 10px 10px 6px;
+   align-items: center;
+   justify-content: space-between;
+   border-right: 1px solid gray;
+}
+.sidebar_search {
+   width: 80%;
+   background: #fff;
+   border-radius: 30px;
+   margin: 10px auto;
+   display: flex;
+   align-items: center;
+   padding: 8px 20px;
+}
+.sidebar_search > input {
+   border: 0;
+   padding: 8px;
+   outline: none;
+}
+
+.sidebarChat_body {
+   flex: 1;
+   background-color: #fff;
+}

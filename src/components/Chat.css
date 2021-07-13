@@ -1,0 +1,64 @@
+.chat {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+.chat_header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 7px 20px;
+}
+.chat_headerLeft {
+   display: flex;
+   align-items: center;
+}
+.chat_headerLeftInfo {
+   padding-left: 20px;
+}
+.chat_body {
+   flex: 1;
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.EmJr_wElxWEXv6yi2mZE-gHaDt&pid=Api&P=0&w=309&h=155");
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow-y: scroll;
+   padding: 20px;
+}
+
+.chat_input {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 20px;
+   color: gray;
+}
+.chat_input > form {
+   flex: 1;
+   padding-left: 20px;
+   display: flex;
+}
+.chat_input > form > input {
+   flex: 1;
+   font-size: 19px;
+   font-weight: 400;
+   border: 0;
+   outline: none;
+   padding-left: 20px;
+   border-radius: 30px;
+}
+
+.chat_message {
+   width: fit-content;
+   padding: 6px;
+   background-color: rgb(184, 183, 183);
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.message_reciever {
+   margin-left: auto !important;
+   background-color: rgb(67, 143, 67);
+   color: #fff;
+}
+.chat_message small {
+   margin-left: 20px;
+}

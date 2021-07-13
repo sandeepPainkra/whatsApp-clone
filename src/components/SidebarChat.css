@@ -1,0 +1,33 @@
+.sidebarChat {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   padding: 10px 20px 0;
+}
+.sidebarChat:hover {
+   cursor: pointer;
+   background-color: grey;
+}
+.sidebarChat_info {
+   /* padding-left: 20px; */
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   flex: 1;
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgb(201, 198, 198);
+}
+.sidebarChat_info > small {
+   position: absolute;
+   right: 0;
+   top: 10px;
+}
+
+.addNewChat {
+   padding: 10px;
+   border-bottom: 1px solid rgb(206, 204, 204);
+}
+.addNewChat h2 {
+   text-align: center;
+}
